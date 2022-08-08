@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MoveZeroes {
+public class MajorityElement {
 
 		// Running tests in main
 	    public static void main (String[] args) {
