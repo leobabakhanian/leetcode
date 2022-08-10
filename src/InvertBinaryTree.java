@@ -1,7 +1,8 @@
 
 public class InvertBinaryTree {
 
-	public class TreeNode {
+	// Definition for a binary tree node.
+	class TreeNode {
 		int val;
 		TreeNode left;
 		TreeNode right;
@@ -17,6 +18,7 @@ public class InvertBinaryTree {
 		}
 	}
 	
+	// Given the root of a binary tree, invert the tree, and return its root.
 	public TreeNode invertTree(TreeNode root) {
 		
 		if(root == null)
