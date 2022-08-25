@@ -15,17 +15,15 @@ public class ReverseLinkedList {
 	public ListNode reverseList(ListNode head) {
 	        
 		ListNode prev = null, curr = head;
-	    	
-	    while(curr != null) {
-	    	
-	    	ListNode next = curr.next;
-	    	curr.next = prev;
-	    	prev = curr;
-	    	curr = next;
-	    }
-	    	
-	    System.out.println("1");
-	    
-	    return prev;
+		
+		while(curr != null) {
+			
+			ListNode next = head.next;
+			curr.next = prev;
+			prev = curr;
+			curr = next;
+		}
+		
+		return prev;
 	}
 }
